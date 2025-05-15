@@ -10,11 +10,6 @@ func main() {
 	fmt.Print(max, min)
 }
 
-func add(a, b int) (sum int) {
-	sum = a + b
-	return
-}
-
 func maxMin(nums ...int) (int, int) {
 	if len(nums) == 0 {
 		panic("必须至少包含一个数字！")
