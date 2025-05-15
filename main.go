@@ -6,8 +6,7 @@ import (
 )
 
 func main() {
-	max, min := maxMin(1, 3, 2, 5, 7, 9)
-	fmt.Print(max, min)
+	fmt.Print("Hello Git!")
 }
 
 func maxMin(nums ...int) (int, int) {
